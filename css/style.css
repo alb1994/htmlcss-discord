@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+/* inizio header*/
+header{
+    display: flex;
+    height: 14.2%;
+    background-color: blue; 
+    flex-direction: column;
+
+}
+.conteiner-header-1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: blue; 
+    width: 100%;
+    height: 10%;
+}
+.conteiner-header-2{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+/* elementi del 1 conteiner header*/
+.row-header-1{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 75%;
+}
+.column-header-1{
+    width: 25%;  
+}
+.column-header-2{
+    width: 50%; 
+    text-align: center;
+}
+.column-header-3{
+    width: 25%;
+    text-align: right;
+}
+span{
+    margin: 0px 10px 0px 10px;
+}
+/* elementi del 2 conteiner header*/
+.row-header-2{
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    }
+.column-header-2-1{
+    text-align: center;
+    font-size: 50px;
+}
+.column-header-2-2{
+    text-align: center;
+}
+.column-header-2-3{
+    justify-content: space-between;
+    padding: 10px;
+    display: flex;
+}
+button{
+    border-radius: 50px;
+    padding: 10px;
+}
+.bottone-nero{
+    border-radius: 50px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+/*fine header*/
+main{
+    height: 71,5%;
+}
+/*inizio footer*/
+footer{
+    display: flex;
+    height: 14.2%;
+    background-color: blue; 
+    flex-direction: column;
+}
+.conteiner-footer-1{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+.conteiner-footer-2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: blue; 
+    width: 100%;
+    height: 10%;
+}
+/*secondo container footer*/
+.row-footer-2{
+    background-color: greenyellow;
+    width: 60%;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 0px 10px 0px;
+    margin-top: 15px;
+}
+.column-footer-2-1{
+    width: calc(50%);
+}
+.column-footer-2-2{
+    width: calc(50%);
+    text-align: right;
+}
