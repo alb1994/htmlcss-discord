@@ -6,6 +6,7 @@
 body{
     width: 100%;
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* inizio header*/
 header{
@@ -28,12 +29,22 @@ header{
     height: 90%;
     width: 100%;
     display: flex;
-    background-size: cover;
-    background-color: black;
+    background-image: url(/img/jumbo.png);
     color: white;
     justify-content: center;
+}   
+.logo-discord{
+    width: 5px;
+    height: 5px;
+    background-color:white;
+    padding: 5px;
+    color: black;
 }
-/* elementi del 1 conteiner header*/
+.scritta-logo{
+    padding: 0 10px;
+}
+
+/* elementi del primo conteiner header*/
 .row-header-1{
     background-color: blue;
     display: flex;
@@ -52,18 +63,24 @@ header{
     width: 25%;
     text-align: right;
 }
-span{
+.titolo-discord{
     margin: 0px 10px 0px 10px;
 }
-/* elementi del 2 conteiner header*/
+sfondo1{
+    display: flex;
+    display: inline-block;
+}
+
+/* elementi del secondo conteiner header*/
 .row-header-2{
     display: flex;
     flex-direction: column;
     padding: 70px;
-    }
+}
 .column-header-2-1{
     text-align: center;
     font-size: 50px;
+    margin-bottom: 40px;
 }
 .column-header-2-2{
     text-align: center;
@@ -83,16 +100,103 @@ button{
     background-color: black;
     color: white;
 }
-/*fine header*/
-main{
-    height: 71,5%;
+span{
+    display: inline-block;
 }
+/*fine header*/
+/*inizio main*/
+.conteiner-main{
+    display: flex;
+    flex-direction:column;
+}
+.scritte-main-1{
+    font-size: 40px;
+    margin-top: 25px;
+}
+.scritte-main-2{
+    font-size: 15px;
+    margin-top: 25px;
+    line-height: 25px;
+}
+/*inizio row main*/
+.row-main-1{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row-main-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row-main-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row-main-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*inizio column main*/
+.column-row-1{
+    display: flex;
+    width: 75%;
+}
+.column-row-2{
+    width: 75%;
+    display: flex;
+}
+.column-row-3{
+    width: 75%;
+    display: flex;
+}
+.column-row-4{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+/*inizio contenuto colonne main*/
+.content1-1{
+    width: 70%;
+}
+.content1-2{
+    width: 30%;;
+}
+.content2-1{
+    width: 40%;
+}
+.content2-2{
+    width: 60%;
+}
+.content-column-row-4-1{
+    height: 20%;
+    text-align: center;
+}
+.content-column-row-4-2{
+    height: 60%;
+}
+.content-column-row-4-3{
+    height: 20%;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+p{
+    margin-bottom: 20px;
+}
+/*fine main*/
 /*inizio footer*/
 footer{
     display: flex;
     height: 14.2%;
     background-color: blue; 
     flex-direction: column;
+    justify-content: flex-end;
+    justify-content: center;
 }
 .conteiner-footer-1{
     height: 90%;
@@ -108,14 +212,52 @@ footer{
     justify-content: center;
     padding-bottom: 10px;
     padding-top: 10px;
-    background-color: blue; 
+    background-color: black; 
     width: 100%;
     height: 10%;
 }
-/*secondo container footer*/
+hr{
+
+}
+/*contenuti primo conteiner footer*/
+.row-footer-1-1{
+    width: 75%;
+    display: flex;
+    background-color: black;
+}
+.column-footer-1-1{
+    width: 30%;
+    background-color: black;
+    font-size: 35PX;
+}
+.column-footer-1-2{
+    background-color: black;
+    width: 70%;
+    display: flex;
+    padding: 20px;
+}
+.content-column-footer-1-2-1{
+    width: 25%;
+}
+.content-column-footer-1-2-2{
+    width: 25%;
+}
+.content-column-footer-1-2-3{
+    width: 25%;
+}
+.content-column-footer-1-2-4{
+    width: 25%;
+}
+.titoli-footer{
+    color: blueviolet;
+}
+.lista-footer{
+    color: white;
+}
+/*contenuti secondo conteiner footer*/
 .row-footer-2{
-    background-color: greenyellow;
-    width: 60%;
+    background-color:black;
+    width: 75%;
     justify-content: space-between;
     display: flex;
     padding: 10px 0px 10px 0px;
@@ -123,8 +265,15 @@ footer{
 }
 .column-footer-2-1{
     width: calc(50%);
+    margin-top: 10px;
 }
 .column-footer-2-2{
     width: calc(50%);
     text-align: right;
+}
+.bottone-viola{
+    border-radius: 50px;
+    padding: 10px;
+    background-color:violet;
+    color: white;    
 }
